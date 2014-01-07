@@ -1,0 +1,4 @@
+2014-01-06 17:46:50.577 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-01-06 17:46:50.577 [info] <0.7.0> Application exlager started on node nonode@nohost
+2014-01-06 17:46:50.583 [info] <0.7.0> Application supervised_list_server started on node nonode@nohost
+2014-01-06 17:46:50.584 [info] <0.7.0> Application iex started on node nonode@nohost

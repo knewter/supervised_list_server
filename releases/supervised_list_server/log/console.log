@@ -1,0 +1,6 @@
+2014-01-06 17:48:13.476 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-01-06 17:48:13.476 [info] <0.7.0> Application exlager started on node nonode@nohost
+2014-01-06 17:48:13.486 [info] <0.7.0> Application supervised_list_server started on node nonode@nohost
+2014-01-06 17:48:13.486 [info] <0.7.0> Application iex started on node nonode@nohost
+2014-01-06 17:48:22.885 [info] <0.90.0>@Elixir.ListServer:add:16 adding foo
+2014-01-06 17:48:27.215 [info] <0.90.0>@Elixir.ListServer:items:26 returning list of items

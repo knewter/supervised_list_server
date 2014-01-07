@@ -1,0 +1,684 @@
+2013-12-19 07:03:10 =ERROR REPORT====
+** Generic server list terminating 
+** Last message in was {'$gen_cast',crash}
+** When Server state == {[book,cane],<0.153.0>}
+** Reason for termination == 
+** {{badmatch,2},[{'Elixir.ListServer',handle_cast,2,[{file,"/home/jadams/elixir/supervised_list_server/lib/list_server.ex"},{line,52}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2013-12-19 07:03:10 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.155.0>
+    registered_name: list
+    exception exit: {{{badmatch,2},[{'Elixir.ListServer',handle_cast,2,[{file,"/home/jadams/elixir/supervised_list_server/lib/list_server.ex"},{line,52}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.154.0>,<0.152.0>,<0.150.0>]
+    messages: []
+    links: [<0.154.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 314
+  neighbours:
+2013-12-19 07:03:10 =SUPERVISOR REPORT====
+     Supervisor: {<0.154.0>,'Elixir.ListSubSupervisor'}
+     Context:    child_terminated
+     Reason:     {{badmatch,2},[{'Elixir.ListServer',handle_cast,2,[{file,"/home/jadams/elixir/supervised_list_server/lib/list_server.ex"},{line,52}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.155.0>},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.153.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:18:48 =ERROR REPORT====
+** Generic server list terminating 
+** Last message in was {'$gen_cast',crash}
+** When Server state == {[foo],<0.120.0>}
+** Reason for termination == 
+** {{badmatch,2},[{'Elixir.ListServer',handle_cast,2,[{file,"/home/jadams/elixir/supervised_list_server/lib/list_server.ex"},{line,52}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-02 22:18:48 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.122.0>
+    registered_name: list
+    exception exit: {{{badmatch,2},[{'Elixir.ListServer',handle_cast,2,[{file,"/home/jadams/elixir/supervised_list_server/lib/list_server.ex"},{line,52}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.121.0>,<0.119.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.121.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 299
+  neighbours:
+2014-01-02 22:18:48 =SUPERVISOR REPORT====
+     Supervisor: {<0.121.0>,'Elixir.ListSubSupervisor'}
+     Context:    child_terminated
+     Reason:     {{badmatch,2},[{'Elixir.ListServer',handle_cast,2,[{file,"/home/jadams/elixir/supervised_list_server/lib/list_server.ex"},{line,52}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.122.0>},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.120.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:19:02 =ERROR REPORT====
+** Generic server list terminating 
+** Last message in was {'$gen_cast',crash}
+** When Server state == {[foo],<0.120.0>}
+** Reason for termination == 
+** {{badmatch,2},[{'Elixir.ListServer',handle_cast,2,[{file,"/home/jadams/elixir/supervised_list_server/lib/list_server.ex"},{line,52}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-02 22:19:02 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.142.0>
+    registered_name: list
+    exception exit: {{{badmatch,2},[{'Elixir.ListServer',handle_cast,2,[{file,"/home/jadams/elixir/supervised_list_server/lib/list_server.ex"},{line,52}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.121.0>,<0.119.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.121.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 297
+  neighbours:
+2014-01-02 22:19:02 =SUPERVISOR REPORT====
+     Supervisor: {<0.121.0>,'Elixir.ListSubSupervisor'}
+     Context:    child_terminated
+     Reason:     {{badmatch,2},[{'Elixir.ListServer',handle_cast,2,[{file,"/home/jadams/elixir/supervised_list_server/lib/list_server.ex"},{line,52}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.142.0>},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.120.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:19:31 =SUPERVISOR REPORT====
+     Supervisor: {<0.119.0>,'Elixir.ListSupervisor'}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.120.0>},{name,'Elixir.ListData'},{mfargs,{'Elixir.ListData',start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:19:52 =SUPERVISOR REPORT====
+     Supervisor: {<0.119.0>,'Elixir.ListSupervisor'}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.153.0>},{name,'Elixir.ListData'},{mfargs,{'Elixir.ListData',start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.121.0>,'Elixir.ListSubSupervisor'}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.146.0>},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.120.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.121.0>,'Elixir.ListSubSupervisor'}
+     Context:    start_error
+     Reason:     {noproc,{gen_server,call,[<0.120.0>,get_state]}}
+     Offender:   [{pid,<0.146.0>},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.120.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:16 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.164.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[<0.120.0>,get_state]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.121.0>,<0.119.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.121.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2014-01-02 22:20:16 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.166.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[<0.120.0>,get_state]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.121.0>,<0.119.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.121.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2014-01-02 22:20:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.121.0>,'Elixir.ListSubSupervisor'}
+     Context:    start_error
+     Reason:     {noproc,{gen_server,call,[<0.120.0>,get_state]}}
+     Offender:   [{pid,{restarting,<0.146.0>}},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.120.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:16 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.168.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[<0.120.0>,get_state]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.121.0>,<0.119.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.121.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2014-01-02 22:20:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.121.0>,'Elixir.ListSubSupervisor'}
+     Context:    start_error
+     Reason:     {noproc,{gen_server,call,[<0.120.0>,get_state]}}
+     Offender:   [{pid,{restarting,<0.146.0>}},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.120.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:16 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.170.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[<0.120.0>,get_state]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.121.0>,<0.119.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.121.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2014-01-02 22:20:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.121.0>,'Elixir.ListSubSupervisor'}
+     Context:    start_error
+     Reason:     {noproc,{gen_server,call,[<0.120.0>,get_state]}}
+     Offender:   [{pid,{restarting,<0.146.0>}},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.120.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:16 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.172.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[<0.120.0>,get_state]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.121.0>,<0.119.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.121.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2014-01-02 22:20:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.121.0>,'Elixir.ListSubSupervisor'}
+     Context:    start_error
+     Reason:     {noproc,{gen_server,call,[<0.120.0>,get_state]}}
+     Offender:   [{pid,{restarting,<0.146.0>}},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.120.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.121.0>,'Elixir.ListSubSupervisor'}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,{restarting,<0.146.0>}},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.120.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.119.0>,'Elixir.ListSupervisor'}
+     Context:    child_terminated
+     Reason:     shutdown
+     Offender:   [{pid,<0.121.0>},{name,'Elixir.ListSubSupervisor'},{mfargs,{'Elixir.ListSubSupervisor',start_link,[<0.120.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:16 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.175.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[<0.120.0>,get_state]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.174.0>,<0.119.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.174.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2014-01-02 22:20:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.174.0>,'Elixir.ListSubSupervisor'}
+     Context:    start_error
+     Reason:     {noproc,{gen_server,call,[<0.120.0>,get_state]}}
+     Offender:   [{pid,undefined},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.120.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.119.0>,'Elixir.ListSupervisor'}
+     Context:    start_error
+     Reason:     {shutdown,{failed_to_start_child,'Elixir.ListServer',{noproc,{gen_server,call,[<0.120.0>,get_state]}}}}
+     Offender:   [{pid,<0.121.0>},{name,'Elixir.ListSubSupervisor'},{mfargs,{'Elixir.ListSubSupervisor',start_link,[<0.120.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:16 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.178.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[<0.120.0>,get_state]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.177.0>,<0.119.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.177.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2014-01-02 22:20:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.177.0>,'Elixir.ListSubSupervisor'}
+     Context:    start_error
+     Reason:     {noproc,{gen_server,call,[<0.120.0>,get_state]}}
+     Offender:   [{pid,undefined},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.120.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.119.0>,'Elixir.ListSupervisor'}
+     Context:    start_error
+     Reason:     {shutdown,{failed_to_start_child,'Elixir.ListServer',{noproc,{gen_server,call,[<0.120.0>,get_state]}}}}
+     Offender:   [{pid,{restarting,<0.121.0>}},{name,'Elixir.ListSubSupervisor'},{mfargs,{'Elixir.ListSubSupervisor',start_link,[<0.120.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.180.0>,'Elixir.ListSubSupervisor'}
+     Context:    start_error
+     Reason:     {noproc,{gen_server,call,[<0.120.0>,get_state]}}
+     Offender:   [{pid,undefined},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.120.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:16 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.181.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[<0.120.0>,get_state]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.180.0>,<0.119.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.180.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2014-01-02 22:20:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.119.0>,'Elixir.ListSupervisor'}
+     Context:    start_error
+     Reason:     {shutdown,{failed_to_start_child,'Elixir.ListServer',{noproc,{gen_server,call,[<0.120.0>,get_state]}}}}
+     Offender:   [{pid,{restarting,<0.121.0>}},{name,'Elixir.ListSubSupervisor'},{mfargs,{'Elixir.ListSubSupervisor',start_link,[<0.120.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:16 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.184.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[<0.120.0>,get_state]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.183.0>,<0.119.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.183.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2014-01-02 22:20:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.183.0>,'Elixir.ListSubSupervisor'}
+     Context:    start_error
+     Reason:     {noproc,{gen_server,call,[<0.120.0>,get_state]}}
+     Offender:   [{pid,undefined},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.120.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.119.0>,'Elixir.ListSupervisor'}
+     Context:    start_error
+     Reason:     {shutdown,{failed_to_start_child,'Elixir.ListServer',{noproc,{gen_server,call,[<0.120.0>,get_state]}}}}
+     Offender:   [{pid,{restarting,<0.121.0>}},{name,'Elixir.ListSubSupervisor'},{mfargs,{'Elixir.ListSubSupervisor',start_link,[<0.120.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:16 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.187.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[<0.120.0>,get_state]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.186.0>,<0.119.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.186.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2014-01-02 22:20:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.186.0>,'Elixir.ListSubSupervisor'}
+     Context:    start_error
+     Reason:     {noproc,{gen_server,call,[<0.120.0>,get_state]}}
+     Offender:   [{pid,undefined},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.120.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.119.0>,'Elixir.ListSupervisor'}
+     Context:    start_error
+     Reason:     {shutdown,{failed_to_start_child,'Elixir.ListServer',{noproc,{gen_server,call,[<0.120.0>,get_state]}}}}
+     Offender:   [{pid,{restarting,<0.121.0>}},{name,'Elixir.ListSubSupervisor'},{mfargs,{'Elixir.ListSubSupervisor',start_link,[<0.120.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.119.0>,'Elixir.ListSupervisor'}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,{restarting,<0.121.0>}},{name,'Elixir.ListSubSupervisor'},{mfargs,{'Elixir.ListSubSupervisor',start_link,[<0.120.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.118.0>,'Elixir.SupervisedListServer.Supervisor'}
+     Context:    child_terminated
+     Reason:     shutdown
+     Offender:   [{pid,<0.119.0>},{name,'Elixir.ListSupervisor'},{mfargs,{'Elixir.ListSupervisor',start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:38 =SUPERVISOR REPORT====
+     Supervisor: {<0.189.0>,'Elixir.ListSupervisor'}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.190.0>},{name,'Elixir.ListData'},{mfargs,{'Elixir.ListData',start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:46 =ERROR REPORT====
+** Generic server list terminating 
+** Last message in was {'$gen_cast',crash}
+** When Server state == {[foo],<0.190.0>}
+** Reason for termination == 
+** {{badmatch,2},[{'Elixir.ListServer',handle_cast,2,[{file,"/home/jadams/elixir/supervised_list_server/lib/list_server.ex"},{line,52}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-02 22:20:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.192.0>
+    registered_name: list
+    exception exit: {{{badmatch,2},[{'Elixir.ListServer',handle_cast,2,[{file,"/home/jadams/elixir/supervised_list_server/lib/list_server.ex"},{line,52}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.191.0>,<0.189.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.191.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 371
+  neighbours:
+2014-01-02 22:20:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.191.0>,'Elixir.ListSubSupervisor'}
+     Context:    child_terminated
+     Reason:     {{badmatch,2},[{'Elixir.ListServer',handle_cast,2,[{file,"/home/jadams/elixir/supervised_list_server/lib/list_server.ex"},{line,52}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.192.0>},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.190.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.201.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[<0.190.0>,get_state]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.191.0>,<0.189.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.191.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2014-01-02 22:20:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.191.0>,'Elixir.ListSubSupervisor'}
+     Context:    start_error
+     Reason:     {noproc,{gen_server,call,[<0.190.0>,get_state]}}
+     Offender:   [{pid,<0.192.0>},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.190.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.204.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[<0.190.0>,get_state]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.191.0>,<0.189.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.191.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2014-01-02 22:20:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.191.0>,'Elixir.ListSubSupervisor'}
+     Context:    start_error
+     Reason:     {noproc,{gen_server,call,[<0.190.0>,get_state]}}
+     Offender:   [{pid,{restarting,<0.192.0>}},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.190.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.206.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[<0.190.0>,get_state]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.191.0>,<0.189.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.191.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2014-01-02 22:20:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.191.0>,'Elixir.ListSubSupervisor'}
+     Context:    start_error
+     Reason:     {noproc,{gen_server,call,[<0.190.0>,get_state]}}
+     Offender:   [{pid,{restarting,<0.192.0>}},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.190.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.208.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[<0.190.0>,get_state]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.191.0>,<0.189.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.191.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2014-01-02 22:20:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.191.0>,'Elixir.ListSubSupervisor'}
+     Context:    start_error
+     Reason:     {noproc,{gen_server,call,[<0.190.0>,get_state]}}
+     Offender:   [{pid,{restarting,<0.192.0>}},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.190.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.210.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[<0.190.0>,get_state]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.191.0>,<0.189.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.191.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2014-01-02 22:20:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.191.0>,'Elixir.ListSubSupervisor'}
+     Context:    start_error
+     Reason:     {noproc,{gen_server,call,[<0.190.0>,get_state]}}
+     Offender:   [{pid,{restarting,<0.192.0>}},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.190.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.191.0>,'Elixir.ListSubSupervisor'}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,{restarting,<0.192.0>}},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.190.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.189.0>,'Elixir.ListSupervisor'}
+     Context:    child_terminated
+     Reason:     shutdown
+     Offender:   [{pid,<0.191.0>},{name,'Elixir.ListSubSupervisor'},{mfargs,{'Elixir.ListSubSupervisor',start_link,[<0.190.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.213.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[<0.190.0>,get_state]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.212.0>,<0.189.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.212.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2014-01-02 22:20:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.212.0>,'Elixir.ListSubSupervisor'}
+     Context:    start_error
+     Reason:     {noproc,{gen_server,call,[<0.190.0>,get_state]}}
+     Offender:   [{pid,undefined},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.190.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.189.0>,'Elixir.ListSupervisor'}
+     Context:    start_error
+     Reason:     {shutdown,{failed_to_start_child,'Elixir.ListServer',{noproc,{gen_server,call,[<0.190.0>,get_state]}}}}
+     Offender:   [{pid,<0.191.0>},{name,'Elixir.ListSubSupervisor'},{mfargs,{'Elixir.ListSubSupervisor',start_link,[<0.190.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.216.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[<0.190.0>,get_state]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.215.0>,<0.189.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.215.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2014-01-02 22:20:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.215.0>,'Elixir.ListSubSupervisor'}
+     Context:    start_error
+     Reason:     {noproc,{gen_server,call,[<0.190.0>,get_state]}}
+     Offender:   [{pid,undefined},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.190.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.189.0>,'Elixir.ListSupervisor'}
+     Context:    start_error
+     Reason:     {shutdown,{failed_to_start_child,'Elixir.ListServer',{noproc,{gen_server,call,[<0.190.0>,get_state]}}}}
+     Offender:   [{pid,{restarting,<0.191.0>}},{name,'Elixir.ListSubSupervisor'},{mfargs,{'Elixir.ListSubSupervisor',start_link,[<0.190.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.219.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[<0.190.0>,get_state]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.218.0>,<0.189.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.218.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2014-01-02 22:20:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.218.0>,'Elixir.ListSubSupervisor'}
+     Context:    start_error
+     Reason:     {noproc,{gen_server,call,[<0.190.0>,get_state]}}
+     Offender:   [{pid,undefined},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.190.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.189.0>,'Elixir.ListSupervisor'}
+     Context:    start_error
+     Reason:     {shutdown,{failed_to_start_child,'Elixir.ListServer',{noproc,{gen_server,call,[<0.190.0>,get_state]}}}}
+     Offender:   [{pid,{restarting,<0.191.0>}},{name,'Elixir.ListSubSupervisor'},{mfargs,{'Elixir.ListSubSupervisor',start_link,[<0.190.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.222.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[<0.190.0>,get_state]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.221.0>,<0.189.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.221.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2014-01-02 22:20:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.221.0>,'Elixir.ListSubSupervisor'}
+     Context:    start_error
+     Reason:     {noproc,{gen_server,call,[<0.190.0>,get_state]}}
+     Offender:   [{pid,undefined},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.190.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.189.0>,'Elixir.ListSupervisor'}
+     Context:    start_error
+     Reason:     {shutdown,{failed_to_start_child,'Elixir.ListServer',{noproc,{gen_server,call,[<0.190.0>,get_state]}}}}
+     Offender:   [{pid,{restarting,<0.191.0>}},{name,'Elixir.ListSubSupervisor'},{mfargs,{'Elixir.ListSubSupervisor',start_link,[<0.190.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.ListServer:init/1
+    pid: <0.225.0>
+    registered_name: []
+    exception exit: {{noproc,{gen_server,call,[<0.190.0>,get_state]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.224.0>,<0.189.0>,<0.118.0>,<0.117.0>]
+    messages: []
+    links: [<0.224.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2014-01-02 22:20:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.224.0>,'Elixir.ListSubSupervisor'}
+     Context:    start_error
+     Reason:     {noproc,{gen_server,call,[<0.190.0>,get_state]}}
+     Offender:   [{pid,undefined},{name,'Elixir.ListServer'},{mfargs,{'Elixir.ListServer',start_link,[<0.190.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.189.0>,'Elixir.ListSupervisor'}
+     Context:    start_error
+     Reason:     {shutdown,{failed_to_start_child,'Elixir.ListServer',{noproc,{gen_server,call,[<0.190.0>,get_state]}}}}
+     Offender:   [{pid,{restarting,<0.191.0>}},{name,'Elixir.ListSubSupervisor'},{mfargs,{'Elixir.ListSubSupervisor',start_link,[<0.190.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.189.0>,'Elixir.ListSupervisor'}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,{restarting,<0.191.0>}},{name,'Elixir.ListSubSupervisor'},{mfargs,{'Elixir.ListSubSupervisor',start_link,[<0.190.0>]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-02 22:20:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.118.0>,'Elixir.SupervisedListServer.Supervisor'}
+     Context:    child_terminated
+     Reason:     shutdown
+     Offender:   [{pid,<0.189.0>},{name,'Elixir.ListSupervisor'},{mfargs,{'Elixir.ListSupervisor',start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
